@@ -1,0 +1,21 @@
+ETDC
+------------
+High order bit of lowest order byte is a 1 to signal the end of a code
+encoding is O(log_128 n)
+decoding is O(log_128 n)
+
+CETDC
+input: 
+	file to compress
+output: 
+	encoded/compressed file
+	vocab sorted by freq (.voc)
+		(first entry is # of words in vocab and 3 00x's, entries separated by 00x)
+
+DETDC
+input: 
+	file to decode
+	vocab sorted by freq
+output:
+	decompressed file
+

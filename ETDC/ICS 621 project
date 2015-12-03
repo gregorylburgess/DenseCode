@@ -1,0 +1,90 @@
+<NotepadPlus>
+    <Project name="ETDC">
+        <Folder name="encode">
+            <File name="compressor\src\basics.c" />
+            <File name="compressor\src\basics.h" />
+            <File name="compressor\src\BufferedReader.c" />
+            <File name="compressor\src\BufferedReader.h" />
+            <File name="compressor\src\BufferedWriter.c" />
+            <File name="compressor\src\BufferedWriter.h" />
+            <File name="compressor\src\compatibility.h" />
+            <File name="compressor\src\compresor.c" />
+            <File name="compressor\src\compressor.h" />
+            <File name="compressor\src\constants.h" />
+            <File name="compressor\src\hash.c" />
+            <File name="compressor\src\hash.h" />
+            <File name="compressor\src\huff.c" />
+            <File name="compressor\src\huff.h" />
+            <File name="compressor\src\MemoryManager.c" />
+            <File name="compressor\src\MemoryManager.h" />
+            <File name="compressor\src\naiaupuni.txt" />
+            <File name="compressor\src\timer.c" />
+            <File name="compressor\src\timer.h" />
+            <File name="compressor\src\valstring.c" />
+            <File name="compressor\src\valstring.h" />
+        </Folder>
+        <Folder name="decode">
+            <File name="decompresor\src\basics.c" />
+            <File name="decompresor\src\basics.h" />
+            <File name="decompresor\src\BufferedReader.c" />
+            <File name="decompresor\src\BufferedReader.h" />
+            <File name="decompresor\src\BufferedWriter.c" />
+            <File name="decompresor\src\BufferedWriter.c.bak" />
+            <File name="decompresor\src\BufferedWriter.h" />
+            <File name="decompresor\src\constants.h" />
+            <File name="decompresor\src\decompressor.c" />
+            <File name="decompresor\src\decompressor.h" />
+            <File name="decompresor\src\huff.c" />
+            <File name="decompresor\src\huff.h" />
+            <File name="decompresor\src\MemoryManager.c" />
+            <File name="decompresor\src\MemoryManager.h" />
+            <File name="decompresor\src\timer.c" />
+            <File name="decompresor\src\timer.h" />
+            <File name="decompresor\src\valstring.c" />
+            <File name="decompresor\src\valstring.h" />
+            <File name="decompresor\src\writer.c" />
+            <File name="decompresor\src\writer.h" />
+        </Folder>
+    </Project>
+    <Project name="DETDC">
+        <Folder name="encode">
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\BufferedReader.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\BufferedReader.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\BufferedWriter.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\BufferedWriter.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\compatibility.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\compressor.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\compressor.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\constants.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\hash.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\hash.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\MemoryManager.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\MemoryManager.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\timer.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\timer.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\valstring.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\valstring.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\compressor\src\version.h" />
+        </Folder>
+        <Folder name="decode">
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\BufferedReader.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\BufferedReader.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\BufferedWriter.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\BufferedWriter.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\constants.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\decompressor.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\decompressor.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\MemoryManager.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\MemoryManager.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\mostra.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\Readme.txt" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\timer.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\timer.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\valstring.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\valstring.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\version.h" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\writer.c" />
+            <File name="D:\ICS\ICS 621\Project\software\DETDC\decompressor\src\writer.h" />
+        </Folder>
+    </Project>
+</NotepadPlus>

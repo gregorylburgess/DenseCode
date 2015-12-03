@@ -1,0 +1,3 @@
+cd compressor
+make
+cd ..
