@@ -372,7 +372,7 @@ void mainCompressor (char* infile, char* outfile, unsigned int N_val) {
     char buffer[32] = {0};
 	for (i=0;i<zeroNode;i++)
         //itoa(hash[positionInTH[i]].codeword,buffer,2);
-        fprintf(stdout,"\n word [%s], weight [%u], code[%x]",hash[positionInTH[i]].word, hash[positionInTH[i]].weight, hash[positionInTH[i]].codeword);
+        fprintf(stderr,"\n word [%s], weight [%u], code[%x]",hash[positionInTH[i]].word, hash[positionInTH[i]].weight, hash[positionInTH[i]].codeword);
         fprintf(stderr,"]");
 #ifdef UNCOMPRESSED_VOC
 	{ //UNCOMPRESSED VOCABULARY

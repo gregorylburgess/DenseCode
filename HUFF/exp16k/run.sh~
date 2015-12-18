@@ -1,0 +1,3 @@
+./REMOVER $1 Z$1
+./CDETDC Z$1 C$1 > O$1.txt
+./DDETDC C$1 D$1

@@ -68,6 +68,8 @@ int main(int argc, char* argv[])
 	}
 
 	bufSetFile (B,fIn);
+	unsigned char sp = ' ';
+	unsigned char ast = '*';
 	unsigned char z = 'z';
 	{ byte *text,*top, *nextbuf,*pbeg,*pend;
 
@@ -80,10 +82,11 @@ int main(int argc, char* argv[])
 					writeBW(bw,(unsigned char*)(pbeg),1);
 				}
 				else {
+					writeBW(bw,&sp,1);
+					writeBW(bw,&ast,1);
 					writeBW(bw,&z,1);
-					writeBW(bw,&z,1);
-					writeBW(bw,&z,1);
-					writeBW(bw,&z,1);
+					writeBW(bw,&ast,1);
+					writeBW(bw,&sp,1);
 				}
 				pbeg++;
 			}

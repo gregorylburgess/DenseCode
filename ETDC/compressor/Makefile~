@@ -3,9 +3,7 @@ SRCDIR = ./src
 CC          = gcc -w
 CFLAGS      =  -O9 -D_FORTIFY_SOURCE=0  -Wall
 CFLAGS2     = -Wall -O9
-XCPY         = mv CETDC ..
 all:  compressorUNCvoc cleanO
-	$(XCPY)
 clean: 
 	rm -f *.o core CETDC CETDCcompVOC
 
